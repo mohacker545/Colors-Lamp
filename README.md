@@ -1,8 +1,8 @@
-\# COLORS LAMP App
+# COLORS LAMP App
 
 
 
-\## Description
+## Description
 
 
 
@@ -14,7 +14,7 @@ The front-end part of this web app is accessible through a web browser. PHP API 
 
 
 
-\## Technologies Used
+## Technologies Used
 
 
 
@@ -30,7 +30,7 @@ The front-end part of this web app is accessible through a web browser. PHP API 
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -70,11 +70,11 @@ colors-lamp/
 
 
 
-\## Setup
+## Setup
 
 
 
-\### Step 1: Lamp Droplet
+### Step 1: Lamp Droplet
 
 
 
@@ -82,7 +82,7 @@ Create a LAMP Droplet on the DigitalOcean website. Choose the plan that costs $6
 
 
 
-\### Step 2: Creating the MySQL Database
+### Step 2: Creating the MySQL Database
 
 
 
@@ -94,7 +94,7 @@ Use MySQL commands on the command prompt to create a database that consists of 3
 
 
 
-\### Step 3: Create a user
+### Step 3: Create a user
 
 
 
@@ -106,7 +106,7 @@ The username and password here should be separate from your MySQL root account f
 
 
 
-\### Step 4: Configure database credentials
+### Step 4: Configure database credentials
 
 
 
@@ -126,7 +126,7 @@ If you're making a public GitHub repo, do not commit api/config.php, as it is ex
 
 
 
-\### Step 5: Create the server directories
+### Step 5: Create the server directories
 
 
 
@@ -134,7 +134,7 @@ If you haven't already, create the css, images, js, and LAMPAPI directories unde
 
 
 
-\### Step 6: Deploy the PHP API
+### Step 6: Deploy the PHP API
 
 
 
@@ -154,7 +154,7 @@ config.php
 
 
 
-\### Step 7: Test the API endpoints
+### Step 7: Test the API endpoints
 
 
 
@@ -178,7 +178,7 @@ Repeat this for the other two endpoints. You can also test this with Postman, AR
 
 
 
-\### Step 8: Deploy frontend
+### Step 8: Deploy frontend
 
 
 
@@ -204,7 +204,7 @@ The constant variable in the JavaScript file should read '/LAMPAPI', so the fron
 
 
 
-\## Running the Application
+## Running the Application
 
 
 
@@ -216,7 +216,7 @@ or your personal domain if you've purchased one. This should take you to the log
 
 
 
-\## Assumptions
+## Assumptions
 
 * The application is located on a LAMP environment that has Apache, MySQL, and PHP.
 * The COP4331 database needs to have been set up for the application to function correctly.
@@ -225,7 +225,7 @@ or your personal domain if you've purchased one. This should take you to the log
 
 
 
-\## Limitations
+## Limitations
 
 * For educational use only.
 * Does not have any functionality besides logging in, adding, and searching for colors.
@@ -234,7 +234,7 @@ or your personal domain if you've purchased one. This should take you to the log
 
 
 
-\## AI Usage
+## AI Usage
 
 
 
