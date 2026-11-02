@@ -1,0 +1,26 @@
+
+@startuml
+title COLORS Web Application - Use Case Diagram
+left to right direction
+
+skinparam shadowing false
+skinparam usecase {
+    BackgroundColor #EFF5FC
+    BorderColor #456581
+}
+
+actor "Registered User" as User
+
+rectangle "COLORS Web Application" {
+    usecase "Log In" as Login
+    usecase "Search Colors" as Search
+    usecase "Add Color" as Add
+    usecase "Log Out" as Logout
+}
+
+User -- Login
+User -- Search
+User -- Add
+User -- Logout
+
+@enduml

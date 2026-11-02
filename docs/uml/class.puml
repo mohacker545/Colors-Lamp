@@ -1,0 +1,43 @@
+
+@startuml
+
+title COLORS Web Application - Class Diagram
+left to right direction
+
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam class {
+  BackgroundColor #EFF5FC
+  BorderColor #456581
+  ArrowColor #52667B
+  FontColor #20354A
+}
+
+hide empty methods
+
+' Conceptual domain classes; real implementation uses procedural PHP.
+class "User" as User <<domain entity>> {
+  ID : Integer
+  FirstName : String
+  LastName : String
+  Login : String
+  Password : String
+}
+
+class "Color" as Color <<domain entity>> {
+  ID : Integer
+  Name : String
+  UserID : Integer
+}
+
+User "1" -- "0..*" Color : owns >
+
+
+note bottom of User
+  Conceptual representation of the Users and Colors
+  MySQL tables, not literal classes in the PHP code.
+  Login, add, and search are procedural API functions.
+end note
+
+@enduml
